@@ -13,7 +13,7 @@ struct ContentView: View {
             Image("Maram")
                 .resizable()
                 .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
-                .frame(width: 150, height:150)
+                .frame(width: 350, height: 350)
                 .clipped(antialiased:Bool())
                 .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                 .overlay(Circle().stroke(Color.yellow, lineWidth: 5))
